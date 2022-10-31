@@ -1,0 +1,95 @@
+/* .block {
+  background-color: red;
+}
+
+.block:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+li:first {
+  background-color: red;
+}
+
+li:nth-child(3) {
+  background-color: blue;
+} */
+
+/* li:nth-child(odd) {
+  background-color: blue;
+}
+
+li:nth-child(even) {
+  background-color: red;
+}
+
+a:visited {
+  color: green;
+} */
+
+/* #block::before {
+  content: "BEFORE";
+}
+
+#block::after {
+  content: "AFTER";
+  color: blue;
+} */
+
+/* .block {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  border-radius: 5px blue solid;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.block::before {
+  content: "";
+  width: 5px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  border-radius: 5px;
+} */
+
+/* body {
+  height: 300vh;
+} */
+* {
+  border: 4px black solid;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* position: absolute; */
+  margin: 0;
+}
+
+.grandson {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  margin: 0 auto;
+  font-size: 10px;
+  text-align: center;
+  /* position: sticky; */
+  /* right: 0; */
+  /* bottom: 50px; */
+}
+
+span {
+  margin: auto 0;
+}
